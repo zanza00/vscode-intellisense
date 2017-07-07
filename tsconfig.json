@@ -4,6 +4,16 @@
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "allowJs": true,
-    "baseUrl": "app"
-  }
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "app/*"
+      ]
+    }
+  },
+  "include": [
+    "app/*"
+  ]
 }
